@@ -1,0 +1,8 @@
+﻿@model IEnumerable<IdentityRole>
+
+<a asp-action="CreateRole" class="mb-5">Add New Role</a>
+
+@foreach (var role in Model)
+{
+    <div class="mb-4">@role.Name</div>
+}
