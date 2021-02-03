@@ -1,0 +1,9 @@
+﻿@using IdentityWithRolesAndPolicy
+@using Microsoft.AspNetCore.Identity
+@using IdentityWithRolesAndPolicy.Models
+@using IdentityWithRolesAndPolicy.Data
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
