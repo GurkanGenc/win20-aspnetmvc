@@ -1,0 +1,6 @@
+﻿@model IEnumerable<ApplicationUser>
+
+@foreach(var user in Model)
+{
+    <div class="mb-2">@user.GetDisplayName()</div>
+}
